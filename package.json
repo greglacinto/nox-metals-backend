@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/app.ts",
     "build": "tsc",
+    "build:railway": "tsc --project tsconfig.json",
     "start": "node dist/app.js",
     "test": "jest",
     "test:watch": "jest --watch",
