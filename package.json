@@ -4,9 +4,9 @@
   "description": "Backend API for Nox Metals Product Management System",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
     "build": "tsc",
+    "start": "node dist/app.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
