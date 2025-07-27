@@ -271,7 +271,6 @@ src/
 - **Rate Limiting**: API rate limiting to prevent abuse
 - **Security Headers**: Helmet.js for security headers
 - **CORS Protection**: Configurable CORS settings
-- **SQL Injection Prevention**: Parameterized queries
 - **Password Hashing**: bcrypt for secure password storage
 
 ## 📊 Database Schema
@@ -350,9 +349,6 @@ Make sure to set these environment variables in production:
 5. Run the test suite
 6. Submit a pull request
 
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ## 🆘 Support
 
